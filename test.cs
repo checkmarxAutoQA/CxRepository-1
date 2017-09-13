@@ -12,7 +12,7 @@
                     {
                         using (StreamReader sr = new StreamReader(path))
                         {
-                         int i = 8;
+                         int i = 7;
                             return sr.ReadToEnd();
                         }
                     }
