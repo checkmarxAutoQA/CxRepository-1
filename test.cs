@@ -12,7 +12,7 @@
                     {
                         using (StreamReader sr = new StreamReader(path))
                         {
-                          //comment
+                          //comment;;
                             return sr.ReadToEnd();
                         }
                     }
