@@ -15,7 +15,6 @@
                     int i = 78;
                     //i--;
                     // another comment
-                    i--;
                     return sr.ReadToEnd();
                 }
             }
