@@ -13,6 +13,7 @@
                         using (StreamReader sr = new StreamReader(path))
                         {
                          int i = 78;
+                         i++;
                             return sr.ReadToEnd();
                         }
                     }
@@ -21,6 +22,7 @@
                         Checkmarx.Licensing.Log.Write("Code -960: check open l");
                         throw;
                     }
+                 
                 }
 
 \\cout<<"hello world"<<endl;
