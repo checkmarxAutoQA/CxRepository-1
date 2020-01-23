@@ -7,7 +7,7 @@
             throw new Exception("No License");
         }
         else
-        {
+        {  
             try
             {
                 using (StreamReader sr = new StreamReader(path))
