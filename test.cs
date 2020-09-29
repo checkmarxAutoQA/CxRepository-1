@@ -1,6 +1,7 @@
  private static string OpenLicense(string path)
  {
         CxLogger.LogError("path = " + path);
+  CxLogger.LogError("path = " + path);
         if (!File.Exists(path))
         {
             Checkmarx.Licensing.Log.Write("license cannot be found at " + path);
